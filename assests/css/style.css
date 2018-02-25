@@ -345,5 +345,54 @@ footer{
     left: 0;
     border-top: #4aaaa5;
     border-style: solid;
+}
+
+@media screen and (max-width: 980px) {
+
+    #name {
+        margin-left: 113px;
+        margin-right: 66%;
+    }
+
+    .mainbio {
+        width: 350px;
+    }
+
+    .connect {
+        margin-right: 125px;
+        width: 230px;
+
+    }
+
+    #github, #stack {
+        height: 50px;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        padding-left: 0;
+    }
+    
+    #linkedin {
+        height: 50px;
+        padding-bottom: 8.5%;
+        padding-top: 10%;
+        padding-left: 0;  
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .header {
+        position: static;
+    }
+
+
 
 }
