@@ -360,7 +360,8 @@ footer{
 
     .connect {
         margin-right: 125px;
-        width: 230px;
+        width: 200px;
+        font-size: x-large;
 
     }
 
@@ -372,10 +373,62 @@ footer{
     }
     
     #linkedin {
-        height: 50px;
+        height: 55px;
         padding-bottom: 8.5%;
         padding-top: 10%;
         padding-left: 0;  
+    }
+
+    .contact {
+        width: 350px;
+
+    }
+
+    .portfolio {
+        width: 350px;
+
+    }
+
+    #hangman {
+        padding-left: 38px;
+    }
+
+    #hangmantext {
+        margin-left: 38px;
+    }
+
+    #rpg {
+        padding-left: 38px;
+    }
+
+    #rpgtext {
+        margin-left: 38px;
+        margin-top: 380px;
+    }
+
+    #trivia {
+        padding-left: 38px;
+    }
+
+    #triviatext {
+        margin-left: 38px;
+    }
+
+    #rutgers {
+        padding-left: 38px;
+    }
+
+    #rutgerstext {
+        margin-left: 38px;
+        margin-top: 380px;
+    }
+
+    #rps {
+        padding-left: 38px;
+    }
+
+    #rpstext {
+        margin-left: 38px;
     }
 
 }
