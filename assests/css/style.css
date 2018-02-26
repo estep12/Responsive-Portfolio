@@ -435,6 +435,8 @@ footer{
         margin-left: 38px;
     }
 
+ 
+
 }
 
 
@@ -471,12 +473,13 @@ footer{
     .connect {
     width: 600px;
     padding: 20px;
-    margin-top: 288px;
-    position: absolute;
+    margin-top: 300px;
     height: 173px;
     margin-left: 88px;
     height: 109px;
     text-align: left;
+    position: absolute;
+
     }
 
     #github, #stack, #linkedin {
@@ -488,6 +491,7 @@ footer{
     .contact {
         width: 600px;
         margin-bottom: 100px;
+        margin-top: 0;
     }
 
     #labelbig {
@@ -505,13 +509,95 @@ footer{
     
     }
 
+    
+
 }
+
 
 
 @media screen and (max-width: 640px) {
     .header {
         position: static;
     }
+
+    .mainbio {
+        margin-left: 0;
+        
+    }
+
+    .connect {
+        margin-left: 0;
+        margin-top: 350px;
+    }
+
+    .contact{
+        margin-left: 0;
+        margin-top: 0;
+    
+    }
+
+    #labelbig {
+        height: 100px;
+    }
+
+    .portfolio {
+        margin-left: 44px;
+        width: 80%;
+    }
+
+    #hangman {
+        padding-left: 90px;
+        width: 300px;
+    }
+
+    #hangmantext {
+        margin-left: 90px;
+        width: 300px;
+    }
+
+    #rpg {
+        padding-left: 90px;
+        width:  300px;
+    }
+
+    #rpgtext {
+        margin-left: 90px;
+        margin-top: 380px;
+        width: 300px;
+    }
+
+    #trivia {
+        padding-left: 90px;
+        width: 300px;
+    }
+
+    #triviatext {
+        margin-left: 90px;
+        width: 300px;
+    }
+
+    #rutgers {
+        padding-left: 90px;
+        width: 300px;
+    }
+
+    #rutgerstext {
+        margin-left: 90px;
+        margin-top: 380px;
+        width: 300px;
+    }
+
+    #rps {
+        padding-left: 90px;
+        width: 300px;
+    }
+
+    #rpstext {
+        margin-left: 90px;
+        width: 300px;
+    }
+
+    
 
 
 
