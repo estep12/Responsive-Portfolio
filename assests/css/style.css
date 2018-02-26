@@ -349,6 +349,10 @@ footer{
 
 @media screen and (max-width: 980px) {
 
+    .header {
+        position: static;
+    }
+
     #name {
         margin-left: 113px;
         margin-right: 66%;
@@ -436,7 +440,70 @@ footer{
 
 @media screen and (max-width: 768px) {
 
+    #name {
+        padding-right: 30%;
 
+    }
+
+    
+
+    .pagelinks {
+        margin-right: 100px;
+
+    }
+
+    #about, #port, #contact {
+        font-size: 15px;
+    }
+
+    .mainbio {
+        width: 600px;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 15px;
+
+    }
+
+    .connect {
+    width: 600px;
+    padding: 20px;
+    margin-top: 288px;
+    position: absolute;
+    height: 173px;
+    margin-left: 88px;
+    height: 109px;
+    text-align: left;
+    }
+
+    #github, #stack, #linkedin {
+        float: left;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .contact {
+        width: 600px;
+        margin-bottom: 100px;
+    }
+
+    #labelbig {
+        height: 100px;
+    }
+
+    .portfolio {
+        width: 600px;
+        margin-left: 64px;
+    }
+
+    #rpgtext, #rutgerstext {
+        margin-top: 155px;
+        margin-left: 330px;
+    
+    }
 
 }
 
