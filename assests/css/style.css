@@ -339,12 +339,13 @@ footer{
     font-size: 10px;
     color: #ffffff;
     padding: 20px;
-    position: sticky;
+    position: static;
     bottom: 0;
     right: 0;
     left: 0;
     border-top: #4aaaa5;
     border-style: solid;
+    z-index: 1;
 }
 
 @media screen and (max-width: 980px) {
